@@ -9,3 +9,4 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/fb10319dccc2168775e0/test_coverage)](https://codeclimate.com/github/ankit-ojha/cucumberjvm4-customplugin/test_coverage)
 ![Code Climate issues](https://img.shields.io/codeclimate/issues/ankit-ojha/cucumberjvm4-customplugin)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/ankit-ojha/cucumberjvm4-customplugin)
+![GitHub contributors](https://img.shields.io/github/contributors/ankit-ojha/cucumberjvm4-customplugin)
