@@ -17,3 +17,4 @@
 ![Code Climate issues](https://img.shields.io/codeclimate/issues/ankit-ojha/cucumberjvm4-customplugin)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/ankit-ojha/cucumberjvm4-customplugin)
 ![GitHub contributors](https://img.shields.io/github/contributors/ankit-ojha/cucumberjvm4-customplugin)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=cucumber%3Acucumber-java-skeleton&metric=sqale_index)](https://sonarcloud.io/dashboard?id=cucumber%3Acucumber-java-skeleton)
