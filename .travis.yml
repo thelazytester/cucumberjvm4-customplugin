@@ -3,12 +3,22 @@ language: java
 jdk:
   - oraclejdk8
 
+dist: trusty
+
 addons:
   apt:
     packages:
       - oracle-java8-installer
+  sonarcloud:
+     organization: "ankit-ojha"
+          token:
+            secure: "**************************" # encrypted value of your token
 
-dist: trusty
+script:
+        # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+        - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+
+
 
 script: "mvn cobertura:cobertura"
 
@@ -25,15 +35,6 @@ before_script:
   - ./cc-test-reporter before-build
 #### Rest of code omitted for clarity ####
 after_script:
+- ls -a
 - ./cc-test-reporter format-coverage -t cobertura -d target/site/cobertura/coverage.xml
 - ./cc-test-reporter upload-coverage
-
-addons:
-  sonarcloud:
-    organization: "ankit-ojha"
-    token:
-      secure: "**************************" # encrypted value of your token
-
-script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
