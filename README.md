@@ -6,3 +6,4 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ankit-ojha/cucumberjvm4-customplugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ankit-ojha/cucumberjvm4-customplugin)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fb10319dccc2168775e0/maintainability)](https://codeclimate.com/github/ankit-ojha/cucumberjvm4-customplugin/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fb10319dccc2168775e0/test_coverage)](https://codeclimate.com/github/ankit-ojha/cucumberjvm4-customplugin/test_coverage)
