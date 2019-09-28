@@ -10,7 +10,7 @@ addons:
   sonarcloud:
     organization: "ankit-ojha"
     token:
-      secure: "**************************" # encrypted value of your token
+      secure: "98ced24e1021bb9d44ede6d1ce2fd796128154ac" # encrypted value of your token
 
 dist: trusty
 
