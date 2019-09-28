@@ -1,4 +1,4 @@
-Feature: Belly
+Feature: New Feature
 
   Scenario: a few cukes
     Given I have 42 cukes in my belly
