@@ -10,6 +10,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/ankit-ojha/cucumberjvm4-customplugin)](https://github.com/ankit-ojha/cucumberjvm4-customplugin/stargazers)
 ![GitHub followers](https://img.shields.io/github/followers/ankit-ojha)
 ![GitHub watchers](https://img.shields.io/github/watchers/ankit-ojha/cucumberjvm4-customplugin)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ankit-ojha/cucumberjvm4-customplugin)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ankit-ojha/cucumberjvm4-customplugin)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fb10319dccc2168775e0/maintainability)](https://codeclimate.com/github/ankit-ojha/cucumberjvm4-customplugin/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/fb10319dccc2168775e0/test_coverage)](https://codeclimate.com/github/ankit-ojha/cucumberjvm4-customplugin/test_coverage)
 ![Code Climate issues](https://img.shields.io/codeclimate/issues/ankit-ojha/cucumberjvm4-customplugin)
