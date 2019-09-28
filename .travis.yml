@@ -27,4 +27,4 @@ before_script:
 after_script:
 - ls -a
 - ./cc-test-reporter format-coverage -t cobertura -d target/site/cobertura/coverage.xml --exit-code $TRAVIS_TEST_RESULT
-./cc-test-reporter upload-coverage
+- ./cc-test-reporter upload-coverage
